@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "723498257316",
+    "project_id": "gymtok-b6db4",
+    "storage_bucket": "gymtok-b6db4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723498257316:android:24853d1ed366ed028c4f31",
+        "android_client_info": {
+          "package_name": "com.example.gymapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASIH3E3G0a5RsSBXrqKfZUoSKPQ0XMLGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
