@@ -75,26 +75,36 @@ public class MainPage extends AppCompatActivity {
         // Navigation button 1 (example: gain XP)
         ImageView navButton1 = findViewById(R.id.navButton1);
         navButton1.setOnClickListener(v -> {
-           experience.gainXP(20);
+            Intent nav = new Intent(getApplicationContext(), MainPage.class);
+            startActivity(nav);
+            finish();
         });
 
         // Navigation button 2 listener
         ImageView navButton2 = findViewById(R.id.navButton2);
-        navButton2.setOnClickListener(v ->
-                Toast.makeText(this, "Navigation 2 Clicked", Toast.LENGTH_SHORT).show()
+        navButton2.setOnClickListener(v ->{
+            Intent nav = new Intent(getApplicationContext(), Calendar.class);
+            startActivity(nav);
+            finish();
+            }
         );
 
         // Navigation button 3 listener
         ImageView navButton3 = findViewById(R.id.navButton3);
-        navButton3.setOnClickListener(v ->
-                Toast.makeText(this, "Navigation 3 Clicked", Toast.LENGTH_SHORT).show()
-        );
+        navButton3.setOnClickListener(v -> {
+            Intent nav = new Intent(getApplicationContext(), Training.class);
+            startActivity(nav);
+            finish();
+        });
 
         // Navigation button 4 listener (Sign out)
         ImageView navButton4 = findViewById(R.id.navButton4);
         navButton4.setOnClickListener(v -> {
-            FirebaseAuth.getInstance().signOut();
+           /* FirebaseAuth.getInstance().signOut();
             startActivity(new Intent(getApplicationContext(), LoginPage.class));
+            finish();*/
+            Intent nav = new Intent(getApplicationContext(), UserProfile.class);
+            startActivity(nav);
             finish();
         });
     }
