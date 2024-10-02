@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="oval">
-
-    <!-- Solid purple color background -->
-    <solid android:color="#390F49" /> <!-- This is the purple background -->
-
-    <!-- Size of the circle -->
-    <size
-        android:width="60dp"
-        android:height="60dp" />
-
-
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#03DAC6"/> <!-- Cyan for selected background -->
+    <corners android:radius="25dp"/>
 </shape>

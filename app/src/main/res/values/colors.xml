@@ -23,4 +23,5 @@
     <color name="highlight_teal">#26A69A</color>
     <!-- Optional: Gray for borders or less important text -->
     <color name="gray">#9E9E9E</color>
+
 </resources>

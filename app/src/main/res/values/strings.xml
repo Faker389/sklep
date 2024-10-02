@@ -13,4 +13,5 @@
     <string name="register">Register</string>
     <string name="client_id">723498257316-1njpq26lvqcb9cjhsnl8g2vdv6j82c43.apps.googleusercontent.com</string>
     <string name="back_to_login">Back to Login</string>
+    <string name="wallet_icon">Wallet Icon</string>
 </resources>

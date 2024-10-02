@@ -72,8 +72,7 @@ public class MainPage extends AppCompatActivity {
     }
 
     private void setupNavigationButtons() {
-        // Navigation button 1 (example: gain XP)
-        ImageView navButton1 = findViewById(R.id.navButton1);
+        ImageView navButton1 = findViewById(R.id.nav_icon_1);
         navButton1.setOnClickListener(v -> {
             Intent nav = new Intent(getApplicationContext(), MainPage.class);
             startActivity(nav);
@@ -81,16 +80,16 @@ public class MainPage extends AppCompatActivity {
         });
 
         // Navigation button 2 listener
-        ImageView navButton2 = findViewById(R.id.navButton2);
+        ImageView navButton2 = findViewById(R.id.nav_icon_2);
         navButton2.setOnClickListener(v ->{
-            Intent nav = new Intent(getApplicationContext(), Calendar.class);
-            startActivity(nav);
-            finish();
-            }
+                    Intent nav = new Intent(getApplicationContext(), Calendar.class);
+                    startActivity(nav);
+                    finish();
+                }
         );
 
         // Navigation button 3 listener
-        ImageView navButton3 = findViewById(R.id.navButton3);
+        ImageView navButton3 = findViewById(R.id.nav_icon_3);
         navButton3.setOnClickListener(v -> {
             Intent nav = new Intent(getApplicationContext(), Training.class);
             startActivity(nav);
@@ -98,7 +97,7 @@ public class MainPage extends AppCompatActivity {
         });
 
         // Navigation button 4 listener (Sign out)
-        ImageView navButton4 = findViewById(R.id.navButton4);
+        ImageView navButton4 = findViewById(R.id.nav_icon_4);
         navButton4.setOnClickListener(v -> {
            /* FirebaseAuth.getInstance().signOut();
             startActivity(new Intent(getApplicationContext(), LoginPage.class));

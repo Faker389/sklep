@@ -41,6 +41,7 @@ tasks.whenTaskAdded {
 
 
 dependencies {
+    implementation("com.google.android.material:material:1.2.1")
     implementation("com.google.android.gms:play-services-auth:20.5.0")
     implementation(platform("com.google.firebase:firebase-bom:33.3.0"))
     implementation("com.google.firebase:firebase-analytics")
